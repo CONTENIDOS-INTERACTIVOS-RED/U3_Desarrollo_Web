@@ -17,13 +17,23 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FBE7B2
   &-2
-    background-color: #FFFBE8
+    background-color: #B6FBF3
   &-3
-    background-color: #F0E9F6
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(225, 218, 247, 1) 100%)
   &-4
-    background-color: #EAF8FD
+    background-color: #5C2C88
+  &-5
+    background-color: #CDD9F7
+  &-6
+    background-color: #FCEEB5
+  &-7
+    background-color: #062678
+  &-8
+    background-color: #EDDBFD
+  &-9
+    background-color: #F6ECFE
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -59,6 +69,13 @@
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
+
+.git-command-block
+  background: linear-gradient(135deg, #0d1117, #161b22) !important
+  border: 2px solid #30363d
+  padding: 1.5rem
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .3)
+
 
 // Variables
 $custom-card-border-radius: 0px
@@ -97,15 +114,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 35%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 37%) !important
 
 
 .anexo__texto
@@ -143,7 +160,7 @@ $custom-card-img-height: 322px
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
 .tabs-content
-  background-color: #F4F4F4
+  background-color: #E5EBFB
 
 .material-complementario
   p,a
@@ -227,3 +244,6 @@ th.bg-color-tabla
 
 .bordes
   border: 1px solid lightgray !important
+
+.text-end
+    text-align: left !important
